@@ -1,3 +1,4 @@
+#Quyidagi buyruqlarni terminalda ketma-ketlikda bajaring
 git config --global user.name "Ism"
 git config --global user.email "Email"
 git config --global push.default matching
