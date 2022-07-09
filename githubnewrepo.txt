@@ -1,0 +1,10 @@
+git config --global user.name "Ism"
+git config --global user.email "Email"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+git add .
+git commit -am "init commit"
+git branch -M main
+git remote set-url origin git remote set-url origin https://<personal_acces_token>@github.com/alisherITgroup/FlaskUseBootstrap.git
+git push origin main
