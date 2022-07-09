@@ -6,5 +6,5 @@ git init
 git add .
 git commit -am "init commit"
 git branch -M main
-git remote set-url origin git remote set-url origin https://<personal_acces_token>@github.com/alisherITgroup/FlaskUseBootstrap.git
+git remote set-url origin https://<personal_acces_token>@github.com/<github_user_name>/<repo_name>.git
 git push origin main
