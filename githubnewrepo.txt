@@ -1,4 +1,4 @@
-#Quyidagi buyruqlarni terminalda ketma-ketlikda bajaring
+#Quyidagi buyruqlarni terminalda ketma-ketlikda bajaring:
 git config --global user.name "Ism"
 git config --global user.email "Email"
 git config --global push.default matching
@@ -10,3 +10,7 @@ git branch -M main
 git remote add origin https://github.com/<github_user_name>/<repo_name>.git
 git remote set-url origin https://<personal_acces_token>@github.com/<github_user_name>/<repo_name>.git
 git push origin main
+
+#O'zgartirishlar uchun:
+git commit -am 'init <fayl>'
+git push
